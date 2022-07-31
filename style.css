@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0 143 4);
+    width: 98%;
+}
+
+.task-check {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.task p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+.task button {
+    color: #97eb8b;
+    background-color: #01271c;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 34px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #168038;
+    height: 142px;
+    position: relative;
+}
+.inputField input {
+    border: 1px solid #757575;
+    width: 94%;
+    padding: 9px;
+    background-color: #c3dfc3;
+    height: 41px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #00523a;
+}
+.inputField input:focus {
+  outline: none;
+}
+.inputField button {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px;
+    width: 118px;
+    height: 41px;
+    text-align: center;
+    color: #97eb8b;
+    background-color: #01271c;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    margin-right: 16px;
+}
